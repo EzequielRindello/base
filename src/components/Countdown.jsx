@@ -1,7 +1,7 @@
 import useCountdown from '../hooks/useCountdown';
 
 const Countdown = () => {
-  const timeLeft = useCountdown('2026-04-14T00:00:00');
+  const timeLeft = useCountdown('2026-04-03T00:00:00');
 
   return (
     <section className="countdown-section">

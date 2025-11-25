@@ -11,7 +11,7 @@ const Rsvp = () => {
         Por favor, confirmanos tu asistencia antes del 1 de abril.
         Tu presencia hará de este día algo inolvidable.
       </p>
-      <button className="cta-btn primary" onClick={handleRsvpClick}>
+      <button className="cta-btn" onClick={handleRsvpClick}>
         Confirmar Asistencia
       </button>
     </section>

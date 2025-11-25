@@ -22,20 +22,29 @@ export default function App() {
     } else {
       document.body.style.overflow = 'auto';
     }
-
     return () => {
       document.body.style.overflow = 'auto';
     };
   }, [showSplash]);
 
+  const handleButtonClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    startMusic();
+  };
+
   return (
     <div className="app">
       {showSplash && (
-        <div className="splash-screen" onClick={startMusic}>
+        <div className="splash-screen">
           <div className="splash-content">
             <h1 className="splash-title">Lihuel y Giane</h1>
             <p className="splash-subtitle">¡NOS CASAMOS!</p>
-            <button className="splash-btn">
+            <button
+              className="splash-btn"
+              onClick={handleButtonClick}
+              type="button"
+            >
               <FaPlay /> Entrar
             </button>
           </div>
