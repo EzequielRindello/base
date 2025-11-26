@@ -686,3 +686,18 @@ section {
 		transform: scale(1.05);
 	}
 }
+
+@media (max-width: 640px) {
+	.social-section {
+		padding: var(--spacing-md) var(--spacing-sm);
+	}
+
+	.contacts-grid {
+		gap: var(--spacing-sm);
+	}
+
+	.contact-card {
+		padding: var(--spacing-sm);
+	}
+}
+
