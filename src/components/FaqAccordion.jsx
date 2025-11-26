@@ -7,11 +7,11 @@ const FaqAccordion = () => {
   const faqs = [
     {
       title: 'Dress Code',
-      content: 'Elegante sport. Sugerimos colores claros y pasteles acorde a la primavera. ¡Queremos que te sientas cómodo y hermoso!'
+      content: 'Formal. Sugerimos no usar blanco. Esperamos que todos se sientan cómodos y disfruten del día con nosotros.'
     },
     {
       title: 'Regalo',
-      content: 'Tu presencia es nuestro mejor regalo. Si querés obsequiarnos algo, agradecemos contribuciones para nuestra luna de miel.'
+      content: 'Si querés tener un detalle con nosotros, no estamos necesitando nada para el hogar, aceptamos el dinero.'
     }
   ];
 
@@ -30,6 +30,12 @@ const FaqAccordion = () => {
             </button>
             <div className={`faq-answer ${openIndex === idx ? 'open' : ''}`}>
               <p>{faq.content}</p>
+              {faq.title === 'Regalo' && (
+                <>
+                  <p>Alias: <strong>gianirindello1</strong></p>
+                  <p>Datos: <strong>Gianella Rindello - Mercado Pago</strong></p>
+                </>
+              )}
             </div>
           </div>
         ))}

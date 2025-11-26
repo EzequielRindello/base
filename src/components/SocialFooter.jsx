@@ -23,7 +23,7 @@ const SocialFooter = () => {
           <a href="https://www.instagram.com/lihueee7/" target="_blank" rel="noopener noreferrer" className="social-link">
             <FaInstagram />
           </a>
-          <a href="https://wa.me/5493415654321" target="_blank" rel="noopener noreferrer" className="social-link">
+          <a href="https://wa.me/5493413573053" target="_blank" rel="noopener noreferrer" className="social-link">
             <FaWhatsapp />
           </a>
         </div>

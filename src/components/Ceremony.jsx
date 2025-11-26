@@ -2,7 +2,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const Ceremony = () => {
   const handleMapClick = () => {
-    window.open('https://maps.google.com/?q=Rosario,Santa+Fe,Argentina', '_blank');
+    window.open('https://www.google.com/maps/place/Club+Espa%C3%B1ol+de+Rosario/@-32.9476945,-60.6404249,17z/data=!3m1!4b1!4m6!3m5!1s0x95b7ab1985d9af7f:0xc594815469da9e8c!8m2!3d-32.947699!4d-60.63785!16s%2Fg%2F1tk4sbbj?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D', '_blank');
   };
 
   return (
@@ -11,8 +11,8 @@ const Ceremony = () => {
       <div className="ceremony-content">
         <FaMapMarkerAlt className="ceremony-icon" />
         <p className="ceremony-address">
-          Salón de Eventos "El Jardín"<br />
-          Av. Belgrano 1234<br />
+          Salón de Eventos "Club Español"<br />
+          Rioja 1052<br />
           Rosario, Santa Fe
         </p>
         <button className="cta-btn" onClick={handleMapClick}>
