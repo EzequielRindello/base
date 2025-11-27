@@ -19,7 +19,7 @@ const SocialFooter = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://wa.me/5493416486967"
+              href="https://wa.me/5493416486987"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
