@@ -2,7 +2,7 @@ import { FaMusic } from 'react-icons/fa';
 
 const SongRequest = () => {
   const handleFormClick = () => {
-    window.open('https://forms.google.com/', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLScxq94TnQukNcUDYGxsW30ANCOYFRLS3KZnKKTY7PQX3ezuOA/viewform', '_blank');
   };
 
   return (

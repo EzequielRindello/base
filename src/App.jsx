@@ -55,9 +55,9 @@ export default function App() {
       <Countdown />
       <Gallery />
       <Ceremony />
-      <SongRequest />
-      <FaqAccordion />
       <Rsvp />
+      <FaqAccordion />
+      <SongRequest />
       <SocialFooter />
     </div>
   );
