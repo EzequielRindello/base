@@ -5,7 +5,7 @@ const Countdown = () => {
 
   return (
     <section className="countdown-section">
-      <h2 className="section-title">3 de Abril 2026</h2>
+      <h2 className="section-title">03 • Abril • 2026</h2>
       <p className="countdown-text">¡Listos para festejar juntos! Faltan...</p>
       <div className="countdown-grid">
         <div className="countdown-item">
