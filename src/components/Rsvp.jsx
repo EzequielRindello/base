@@ -1,6 +1,6 @@
 const Rsvp = () => {
   const handleRsvpClick = () => {
-    window.open('https://forms.google.com/', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdag2jV2TE5gX9Qh7mPDhJ_EakvP-TpeyGtR6VaBDOxolIa2g/viewform', '_blank');
   };
 
   return (

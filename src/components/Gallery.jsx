@@ -1,12 +1,14 @@
 import Marquee from "react-fast-marquee";
-import img1 from '../assets/images/DSC_9354.jpg';
-import img2 from '../assets/images/DSC_9364.jpg';
-import img3 from '../assets/images/DSC_9366.jpg';
-import img4 from '../assets/images/DSC_9369.jpg';
-import img5 from '../assets/images/DSC_9370.jpg';
+import img1 from '../assets/images/slider-1.webp';
+import img2 from '../assets/images/slider-2.webp';
+import img3 from '../assets/images/slider-3.webp';
+import img4 from '../assets/images/slider-4.webp';
+import img5 from '../assets/images/slider-5.webp';
+import img6 from '../assets/images/slider-6.webp';
+
 
 const Gallery = () => {
-  const images = [img1, img2, img3, img4, img5];
+  const images = [img1, img2, img3, img4, img5, img6];
 
   return (
     <section className="gallery-section">
@@ -18,7 +20,7 @@ const Gallery = () => {
         </p>
       </div>
       <div className="gallery-wrapper">
-        <Marquee speed={40} gradient={false} pauseOnHover={true}>
+        <Marquee speed={40} gradient={false} pauseOnHover={false}>
           {images.map((img, idx) => (
             <div key={idx} className="gallery-item-marquee">
               <img src={img} alt={`Momento ${idx + 1}`} loading="lazy" />
