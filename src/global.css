@@ -305,6 +305,59 @@ section {
 	color: var(--color-gray);
 }
 
+/* Events Timeline */
+.events-timeline {
+  max-width: 500px;
+  margin: var(--spacing-xl) auto var(--spacing-md);
+  padding: 0 var(--spacing-md);
+}
+
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.event-time {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0;
+  min-width: 80px;
+}
+
+.event-name {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-gray);
+  margin: 0;
+  text-align: right;
+  flex: 1;
+}
+
+.schedule-note {
+  text-align: center;
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  margin: var(--spacing-md) 0 0 0;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .event-time {
+    font-size: 0.95rem;
+    min-width: 70px;
+  }
+  .event-name {
+    font-size: 0.95rem;
+  }
+}
+
 /* CTA Button */
 .cta-btn {
 	display: inline-flex;

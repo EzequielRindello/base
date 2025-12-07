@@ -10,6 +10,10 @@ const FaqAccordion = () => {
       content: 'Formal. Sugerimos no usar blanco. Esperamos que todos se sientan cómodos y disfruten del día con nosotros.'
     },
     {
+      title: 'Tarjeta',
+      content: 'Valor por persona: $65000.'
+    },
+    {
       title: 'Regalo',
       content: 'Si querés tener un detalle con nosotros, no estamos necesitando nada para el hogar, aceptamos el dinero.'
     }
